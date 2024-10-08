@@ -224,9 +224,58 @@ ul li a {
   letter-spacing: 0.0625rem;
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .overlay-text span:hover {
   background-color: var(--accent-color);
 }
 
+/* Product container */
+.product-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 200px;
+}
+
+.product-card {
+  position: relative;
+  background-color: var(--light-grey);
+  border-radius: 8px;
+  min-width: 450px;
+  min-height: 304px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+  padding: 40px;
+  text-transform: uppercase;
+}
+
+.product-card h4 {
+  text-transform: uppercase;
+}
+
+.product-card img {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+}
+
+.product-card a {
+  color: var(--black);
+  text-decoration: none;
+  letter-spacing: 0.125rem;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.shop-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
