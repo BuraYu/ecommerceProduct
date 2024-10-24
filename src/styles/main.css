@@ -1,5 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  --primary-color: #101010;
+  --primary-color: #191919;
+  --secondary-color: #d87d4a;
+  --light-grey: #f1f1f1;
+  --off-white: #fafafa;
+  --accent-color: #fbaf85;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  line-height: 3.625rem;
+  letter-spacing: 0.125em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  line-height: 2.75rem;
+  letter-spacing: 0.09375rem;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  letter-spacing: 0.08125rem;
+}
+
+.overline {
+  font-weight: normal;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  line-height: 1.1875rem;
+  letter-spacing: 0.625rem;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  line-height: 1.5625rem;
+  letter-spacing: 0.0625rem;
+}
+
+body {
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
 }
